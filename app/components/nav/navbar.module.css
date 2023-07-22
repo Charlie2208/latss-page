@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 1000;
+    padding: 24px 0 24px 0;
+}
+
+.logo{
+    width: 180px;
+    background-color: #FFFF;
+    opacity: 0.5;
+}
+
+.logo-container{
+    margin-left: 44px;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        margin-left: 12px;
+    }
+  }
+
+.links-container{
+    margin-right: 44px;
+    display: flex;
+    gap: 12px;
+}
+@media only screen and (max-width: 600px) {
+    .links-container {
+         display: none;
+    }
+  }
+
+.burger{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .burger {
+      display: block;
+      position: relative;
+      z-index: 2;
+      margin-right: 12px;
+      cursor: pointer;
+    }
+  }
+
+  .menuMobile {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Inicialmente oculto fuera de la pantalla hacia la derecha */
+    width: 200px;
+    height: 100vh;
+    background-color: #ffffff;
+    transition: right 0.3s ease;
+    z-index: 1; /* Transición para la animación */
+  }
+  
+  /* Estilos para el menú móvil cuando está abierto */
+  .menuOpen {
+    right: 0; /* Muestra el menú deslizándose desde la derecha hacia la izquierda */
+  }
+
+  .mobileLinks{
+    color: black;
+    margin-top: 100px;
+    padding-left: 12px;
+    cursor: pointer;
+  }
