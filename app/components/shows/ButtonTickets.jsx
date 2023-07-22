@@ -1,4 +1,4 @@
-import styles from './show.module.css'
+import Link from "next/link";
 
 const ButtonTickets = ({ text, url }) => {
     return (

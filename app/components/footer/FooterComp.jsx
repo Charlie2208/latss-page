@@ -9,10 +9,8 @@ const FooterComp = () =>{
         <footer className={styles.container}>
             <div className={styles.icons}>
                 <a href="https://www.instagram.com/losanimalestambiensesuicidan/" target="_blank" ><AiOutlineInstagram  size={32} /></a>
-                <a href="https://www.facebook.com/losanimalestambiensesuicidan" target="_blank" ></a>
-                <BsFacebook size={32} />
-                <a href="https://www.youtube.com/@losanimalestambiensesuicidan" target="_blank" ></a>
-                <AiFillYoutube  size={32} />   
+                <a href="https://www.facebook.com/losanimalestambiensesuicidan" target="_blank" ><BsFacebook size={32} /></a>
+                <a href="https://www.youtube.com/@losanimalestambiensesuicidan" target="_blank" ><AiFillYoutube  size={32} />  </a> 
             </div>
             <p className={styles.year}>©{today.getFullYear()} todos los derechos reservados</p>
         </footer>

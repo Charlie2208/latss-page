@@ -7,7 +7,7 @@ const Dates = () => {
         {month: 'agosto', day: '11', place: 'journal café', city: 'Viña del Mar, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-vina-del-mar'},
         {month: 'agosto', day: '19', place: 'mitad del mundo', city: 'antofagasta, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-sala-scd-bellavista'},
         {month: 'agosto', day: '26', place: 'rock y sicodelia', city: 'la serena, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-serena'},
-        {month: 'octubre', day: '28', place: 'vichama', city: 'lima, perú', tickets:'tickets'},
+        {month: 'octubre', day: '28', place: 'vichama', city: 'lima, perú', tickets:'tickets', url:'/'},
     ]
     return(
         <div>
