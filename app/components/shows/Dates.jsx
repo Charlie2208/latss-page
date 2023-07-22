@@ -3,11 +3,11 @@ import styles from './show.module.css'
 
 const Dates = () => {
     const datesInfo = [
-        {month: 'agosto', day: '10', place: 'scd Bellavista', city: 'santiago, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/scdbellavista/los-animales-tambien-se-suicidan'},
-        {month: 'agosto', day: '11', place: 'journal café', city: 'Viña del Mar, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-vina-del-mar'},
-        {month: 'agosto', day: '19', place: 'mitad del mundo', city: 'antofagasta, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-sala-scd-bellavista'},
-        {month: 'agosto', day: '26', place: 'rock y sicodelia', city: 'la serena, chile', tickets:'tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-serena'},
-        {month: 'octubre', day: '28', place: 'vichama', city: 'lima, perú', tickets:'tickets', url:'/'},
+        {month: 'Agosto', day: '10', place: 'Scd Bellavista', city: 'Santiago, Chile', tickets:'Tickets', url:'https://www.eventrid.cl/eventos/scdbellavista/los-animales-tambien-se-suicidan'},
+        {month: 'Agosto', day: '11', place: 'Journal Café', city: 'Viña del Mar, Chile', tickets:'Tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-vina-del-mar'},
+        {month: 'Agosto', day: '19', place: 'Mitad del Mundo', city: 'Antofagasta, Chile', tickets:'Tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-sala-scd-bellavista'},
+        {month: 'Agosto', day: '26', place: 'Rock y Sicodelia', city: 'La Serena, Chile', tickets:'Tickets', url:'https://www.eventrid.cl/eventos/lagartijarecords/los-animales-tambien-se-suicidan-en-la-serena'},
+        {month: 'Octubre', day: '28', place: 'Vichama', city: 'Lima, Perú', tickets:'Tickets', url:'/'},
     ]
     return(
         <div>
