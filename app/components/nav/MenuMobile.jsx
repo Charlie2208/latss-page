@@ -18,7 +18,7 @@ const MenuMobile = ({links}) => {
         <div>
         {/* Botón del ícono */}
         <div className={styles.burger} onClick={handleClickMenu}>
-          {openMenuMobile ? <GrClose />  : <GiHamburgerMenu />}
+          {openMenuMobile ? <GrClose size={32} />  : <GiHamburgerMenu size={32} />}
         </div>
   
         {/* Menú móvil */}
