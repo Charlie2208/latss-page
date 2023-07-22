@@ -11,7 +11,7 @@ const Listen = () => {
     ]
     return(
         <section id='listen' className={styles.container}>
-            <Title title={'escúchanos'} />
+            <Title title={'Escúchanos'} />
             <div>
                 <DiscographySlider albums={albums} />
             </div>

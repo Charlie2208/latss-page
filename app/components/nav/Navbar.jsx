@@ -3,9 +3,9 @@ import styles from './navbar.module.css'
 
 const NavBar = () => {
     const links = [
-        {link:'/', text:'home'},
-        {link:'#shows', text:'shows'},
-        {link:'#listen', text:'escúchanos'},
+        {link:'/', text:'Home'},
+        {link:'#shows', text:'Shows'},
+        {link:'#listen', text:'Escúchanos'},
     ]
     return(
         <nav className={styles.container}>
