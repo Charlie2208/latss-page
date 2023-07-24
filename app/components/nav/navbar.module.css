@@ -27,6 +27,16 @@
     }
   }
 
+  .logo-image{
+    width: 120px;
+  }
+
+  @media (max-width: 768px) {
+    .logo-image{
+      width: 80px;
+    }
+  }
+
 .links-container{
     margin-right: 44px;
     display: flex;

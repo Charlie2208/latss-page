@@ -10,7 +10,7 @@ const NavBar = () => {
     return(
         <nav className={styles.container}>
             <div className={styles['logo-container']}>
-                <img width='120px' src="./logolatss.png" alt="" />
+                <img className={styles['logo-image']} src="./logolatss.png" alt="" />
             </div>
             <div className={styles['links-container']}>
                 {
