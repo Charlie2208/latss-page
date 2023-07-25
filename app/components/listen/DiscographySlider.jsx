@@ -3,9 +3,11 @@
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
 import './DiscographySlider.css';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const DiscographySlider = ({ albums }) => {
   return (
@@ -23,13 +25,13 @@ const DiscographySlider = ({ albums }) => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Navigation]}
         className="albumes-container-sw"
       >
         {albums.map((album, index) => (
-          <SwiperSlide className='albumes-sl-sw' key={`albumes-${index}`}>
+          <SwiperSlide className="albumes-sl-sw" key={`albumes-${index}`}>
             <div className="album-card">
-              <img className='images-albumes' src={album.cover} alt={album.title} />
+              <img className="images-albumes" src={album.cover} alt={album.title} />
               <a
                 href={album.listenLink}
                 target="_blank"
@@ -47,5 +49,6 @@ const DiscographySlider = ({ albums }) => {
 };
 
 export default DiscographySlider;
+
 
 
