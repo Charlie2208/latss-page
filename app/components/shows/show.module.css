@@ -34,8 +34,17 @@
     .dates-month-day {
       text-align: center;
       margin-bottom: 8px;
+      line-height: 8.9167vw;
+      padding-bottom: 3vw
     }
   }
+
+  @media (max-width: 768px){
+   .month{
+    font-size: 6.336vw;
+   }
+  }
+
 
 .month{
     font-size: 20px;
@@ -44,6 +53,14 @@
 .day{
     font-size: 28px;
 }
+
+@media (max-width: 768px){
+  .day{
+    font-size: 10.3438vw;
+    line-height: 14.9167vw;
+  }
+ }
+
 
 .place-city{
     line-height: 24px;
@@ -62,10 +79,28 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+  .place {
+    font-size: 4.336vw;
+    padding-bottom: 3vw;
+    /* margin-bottom: 8px; */
+  }
+}
+
+
 .city{
     color: #969696;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .city {
+    font-size: 4.336vw;
+    padding-bottom: 3vw;
+    /* margin-bottom: 8px; */
+  }
+}
+
 
 .button{
     width: 350px;
@@ -85,6 +120,12 @@
 
 @media (max-width: 768px) {
     .button {
-      margin-top: 8px;
+      height: 13.5897vw;
+      line-height: 13.5897vw;
+      font-size: 5.8974vw;
+      border-radius: 1.2821vw;
+      max-width: 80vw;
+      padding: 0;
+      /* margin-top: 8px; */
     }
   }
