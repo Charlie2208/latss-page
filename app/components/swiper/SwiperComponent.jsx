@@ -8,7 +8,7 @@ const SwiperComponent = ({ images }) => {
   useEffect(() => {
     const autoplayInterval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 4000);
+    }, 2000);
 
     return () => {
       clearInterval(autoplayInterval); // Limpia el intervalo al desmontar el componente
