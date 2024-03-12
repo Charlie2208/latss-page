@@ -3,7 +3,7 @@ import styles from './show.module.css'
 
 const Dates = () => {
     const datesInfo = [
-        {month: 'Febrero', day: '2', place: 'Bar de René', city: 'Santiago, Chile', tickets:'Tickets', url:'https://www.eventrid.cl/eventos/latss/latss-en-bar-de-rene'},
+        {month: 'Junio', day: '5', place: 'Foro Indie Rocks', city: 'CDMX, México', tickets:'Tickets', url:'https://www.passline.com/eventos/te-vi-en-un-planetario'},
     ]
     return(
         <div>
