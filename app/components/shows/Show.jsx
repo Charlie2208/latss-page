@@ -7,7 +7,7 @@ const Show = () => {
         <section id='shows' className={styles.container}>
             <Title title={'Shows'} />
             <div className={styles['img-container']}>
-                <img src="https://imagenes-portafolio.s3.amazonaws.com/afiche-rene-500.jpg" alt="" />
+                {/* <img src="https://imagenes-portafolio.s3.amazonaws.com/afiche-rene-500.jpg" alt="" /> */}
             </div>
             <Dates />
         </section>
